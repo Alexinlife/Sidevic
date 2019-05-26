@@ -1,0 +1,57 @@
+html, body{
+    margin: 0;
+    height: 100%;
+}
+
+hr{
+    background: white;
+    padding: 0 0 0.25%;
+    position: relative;
+    top: -5px;
+}
+
+.banniere{
+    background-image: url("../media/magasin.jpg");
+
+    height: 100%;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.presentation{
+    background-color: darkred;
+    color: white;
+    padding: 1%;
+}
+
+.promotions{
+    padding-top: 1%;
+    padding-bottom: 1%;
+    color: white;
+
+    background-image: url("../media/grinder.png"); /* Source : https://www.homedepot.com/p/Metabo-15-Amp-Corded-7-in-W-24-180-MVT-Quick-Angle-Grinder-606466420/305895594 */
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.casier{
+    padding: 1%;
+    border-radius: 20px;
+    background-color: saddlebrown;
+}
+
+@media only screen and (max-width: 992px){
+    .casier{
+        padding: 1%;
+        border-radius: 20px;
+        background-color: saddlebrown;
+
+        margin-bottom: 20px;
+    }
+}
